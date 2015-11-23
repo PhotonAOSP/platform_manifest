@@ -38,7 +38,7 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="photon" revision="mm6.0" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="photon" revision="mm6.0" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="photon" revision="mm6.0" />
-   <project path="packages/inputmethods/LatinIME" name="platfrom_packages_inputmethods_LatinIME" remote="photon" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="platfrom_packages_inputmethods_LatinIME" remote="photon" revision="mm6.0" />
   <project path="vendor/photon" name="platform_vendor_photon" remote="photon" revision="mm6.0" />
 
   <!-- Proprietary Vendors -->
@@ -420,7 +420,6 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
