@@ -38,6 +38,7 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="photon" revision="mm6.0" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="photon" revision="mm6.0" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="photon" revision="mm6.0" />
+   <project path="packages/inputmethods/LatinIME" name="platfrom_packages_inputmethods_LatinIME" remote="photon" revision="mm6.0" />
   <project path="vendor/photon" name="platform_vendor_photon" remote="photon" revision="mm6.0" />
 
   <!-- Proprietary Vendors -->
