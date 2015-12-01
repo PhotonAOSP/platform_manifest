@@ -19,7 +19,7 @@ Then to sync source, use this command:
 After syncing is done, use these commands to build:
 
 	1) source build/envsetup.sh
-	2) lunch sirius_DEVICE-userdebug
+	2) lunch photon_DEVICE-userdebug
 	3) make -j# otapackage (# = number of jobs)
 
 Device Codenames:
