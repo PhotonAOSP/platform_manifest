@@ -37,6 +37,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="photon" revision="mm6.0" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="photon" revision="mm6.0" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="photon" revision="mm6.0" />
+  <project path="device/moto/shamu" name="platform_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="photon" revision="mm6.0" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="photon" revision="mm6.0" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="photon" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="photon" revision="mm6.0" />
@@ -47,6 +48,7 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="photon" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="photon" revision="mm6.0" />
   <project path="device/lge/mako-kernel" name="platform_kernel_prebuilt" groups="device,mako" remote="photon" revision="mako-kernel" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="photon" revision="mm6.0" />
   <project path="packages/apps/DSPManager" name="platform_packages_apps_DSPManager" remote="photon" revision="android-6.0" />
   <project path="packages/apps/PerformanceControl" name="platform_packages_apps_PerformanceControl" remote="photon" revision="android-6.0" />
   <project path="vendor/photon" name="platform_vendor_photon" remote="photon" revision="mm6.0" />
@@ -99,7 +101,6 @@
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -391,7 +392,6 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
