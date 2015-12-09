@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
+<remote name="photon" fetch="git://github.com/PhotonAOSP/" />
+
+<remove-project name="platform/hardware/qcom/camera" />
+<project path="device/sony/aries" name="platform_device_sony_aries" groups="device" remote="photon" revision="mm6.0" />
+<project path="device/sony/leo" name="platform_device_sony_leo" groups="device" remote="photon" revision="mm6.0" />
+<project path="vendor/sony/kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony/system/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+<project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="master" />
+<project path="device/qcom/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
+
+</manifest>
