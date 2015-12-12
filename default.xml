@@ -49,7 +49,7 @@
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="photon" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="photon" revision="mm6.0" />
   <project path="device/lge/mako-kernel" name="platform_kernel_prebuilt" groups="device,mako" remote="photon" revision="mako-kernel" />
-  <project path="packages/apps/PhotonOTA" name="platform_packages_apps_PhotonOTA" groups="pdk-fs" remote="photon" revision="mm6.0" />
+  <project path="packages/apps/OTACenter" name="platform_packages_apps_OTACenter" groups="pdk-fs" remote="photon" revision="mm6.0" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="photon" revision="mm6.0" />
   <project path="packages/apps/MonthCalendarWidget" name="platform_packages_apps_MonthCalendarWidget" remote="photon" revision="android-6.0" />
   <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="photon" revision="android-6.0" />
