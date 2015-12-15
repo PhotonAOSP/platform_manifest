@@ -37,6 +37,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="photon" revision="mm6.0" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="photon" revision="mm6.0" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="photon" revision="mm6.0" />
+  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="device,hammerhead" remote="photon" revision="mm6.0" />
   <project path="device/moto/shamu" name="platform_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="photon" revision="mm6.0" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="photon" revision="mm6.0" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" groups="pdk-fs" remote="photon" revision="mm6.0"  />
@@ -105,7 +106,6 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
